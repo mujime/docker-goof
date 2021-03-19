@@ -1,3 +1,3 @@
-FROM node:12.21.0
+FROM node:erbium-buster-slim
 
 RUN apt-get install -y imagemagick
