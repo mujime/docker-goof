@@ -1,4 +1,4 @@
-FROM node:15.10-slim
+FROM node:current-buster-slim
 
 RUN apt-get update
 RUN apt-get install -y firewalld beep
