@@ -1,6 +1,6 @@
 FROM ghost:2.37.2 as ghost
 
-FROM node:erbium-buster-slim as node
+FROM node:12.22.1-buster-slim as node
 
 # Copy manifest files
 COPY --from=ghost /var/lib/ghost /var/lib/ghost
